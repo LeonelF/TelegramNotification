@@ -1,0 +1,6 @@
+[TELEGRAM]
+bottoken=<BOT TOKEN>
+chatid=<CHAT ID>
+message=:information_source: <b>Computer has Booted up</b> :information_source: \n The computer is now running!
+looptime=3
+maxtries=100
