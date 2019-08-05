@@ -11,10 +11,10 @@ import time
 from emoji import emojize
 
 conf = {
-    'bottoken': None
-    'chatid': None
-    'message': None
-    'looptime': 3
+    'bottoken': None,
+    'chatid': None,
+    'message': None,
+    'looptime': 3,
     'maxtries': 100
 }
 # read configuration
@@ -29,7 +29,6 @@ network = "offline"
 message = conf['message']
 message = message.replace("\\n",'\n')
 message = message.replace("\\r",'\r')
-print(message)
 looptime = int(conf['looptime'])
 maxtries = int(conf['maxtries'])
 currtry = 0
