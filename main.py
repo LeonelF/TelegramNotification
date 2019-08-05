@@ -12,6 +12,10 @@ from emoji import emojize
 
 conf = {
     'bottoken': None
+    'chatid': None
+    'message': None
+    'looptime': 3
+    'maxtries': 100
 }
 # read configuration
 config_fn = "conf.ini"
