@@ -23,6 +23,9 @@ config.read(config_fn)
 conf = config['TELEGRAM']
 network = "offline"
 message = conf['message']
+message = message.replace("\\n",'\n')
+message = message.replace("\\r",'\r')
+print(message)
 looptime = int(conf['looptime'])
 maxtries = int(conf['maxtries'])
 currtry = 0
